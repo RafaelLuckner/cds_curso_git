@@ -2,7 +2,6 @@ import pandas as pd
 import plotly.express as px 
 import streamlit as st
 
-
 def rd1_question_9(df):
     df_grouped = df[['id', 'seller_type']].groupby('seller_type')
 
@@ -41,4 +40,3 @@ def rd1_pergunta_13(df):
 
     st.plotly_chart(fig,use_container_width=True)
    
-
