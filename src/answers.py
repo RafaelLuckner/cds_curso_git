@@ -2,6 +2,7 @@ import pandas as pd
 import plotly.express as px 
 import streamlit as st
 
+
 def rd1_question_9(df):
     df_grouped = df[['id', 'seller_type']].groupby('seller_type')
 
